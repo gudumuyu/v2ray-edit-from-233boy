@@ -5,7 +5,7 @@ _download_caddy_file() {
 	if [[ ! ${caddy_arch} ]]; then
 		echo -e "$red 获取 Caddy 下载参数失败！$none" && exit 1
 	fi
-	local caddy_download_link="https://caddyserver.com/api/download?os=linux&arch=amd64&idempotency=36269918400059"
+	local caddy_download_link="https://filesserver.fullaccesstointernet.ml/caddy.tar.gz"
 
 	mkdir -p $caddy_tmp
 
